@@ -1,0 +1,18 @@
+@import "../base/colours.scss";
+
+@mixin color-black {
+  color: $color-black;
+}
+
+@mixin box-shadow-preset {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+@mixin tranformZ($zValue) {
+  -webkit-transform: translateZ($zValue);
+  transform: translateZ($zValue);
+}
+@mixin box-shadow($shadowSize, $shadowColor) {
+  -webkit-box-shadow: 0 0 $shadowSize 0 rgba(0, 0, 0, $shadowColor);
+  box-shadow: 0 0 $shadowSize 0 rgba(0, 0, 0, $shadowColor);
+}

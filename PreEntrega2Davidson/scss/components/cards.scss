@@ -1,0 +1,18 @@
+@import '../utilities/mixins.scss';
+
+.portfolio .card {
+    @include box-shadow-preset();
+  }
+  .team .card {
+    @include box-shadow-preset();
+  }
+  .card-body {
+    i {
+      font-size: 20px;
+    }
+  }
+  .services .card-body {
+    i {
+      font-size: 50px;
+    }
+  }

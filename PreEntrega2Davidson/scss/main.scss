@@ -1,0 +1,16 @@
+//BASE
+@import 'base/colours.scss';
+@import 'base/fonts.scss';
+
+//Componentes
+@import 'components/cards.scss';
+
+//LAyouts
+@import 'layouts/body.scss';
+@import 'layouts/carousel.scss';
+@import 'layouts/navbar.scss';
+@import 'layouts/section.scss';
+
+//Utilidades
+@import 'utilities/animations.scss';
+@import 'utilities/mixins.scss';
